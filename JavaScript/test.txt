@@ -1,0 +1,8 @@
+Write a program that checks if a given number is positive, negative, or zero. Print the appropriate message based on the condition.
+
+
+Write a program that takes a day number (1-7) as input and prints the corresponding day of the week using a switch statement.
+
+
+
+Write a program that uses a for loop to print the first 10 even numbers (starting from 2).
