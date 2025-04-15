@@ -2,6 +2,26 @@ import React from 'react'
 import './header.css'
 
 const Header = () => {
+
+    const linkItems = [
+        {
+            to: "/home",
+            itemName: "Home"
+        },
+        {
+            to: "/projects",
+            itemName: "Projects"
+        },
+        {
+            to: "/aboutus",
+            itemName: "About Us"
+        },
+        {
+            to: "/contact",
+            itemName: "Contact"
+        },
+    ]
+
   return (
     <header>
       <div>
@@ -10,7 +30,11 @@ const Header = () => {
 
 
         <ul>
-           <li>Home</li> 
+           {linkItems.map((i, index) => {
+            return (
+                <li>{i.itemName}</li>
+            )
+           })}
         </ul>
     </header>
   )
