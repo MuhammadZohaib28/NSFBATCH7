@@ -1,0 +1,110 @@
+.herosection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100vh - 3.5rem);
+  gap: 3rem;
+  background-color: rgba(71, 160, 255, 0.231);
+  padding: 0.5rem 1.5rem;
+}
+
+.herosection-left-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.herosection-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  gap: 8rem;
+  flex: 2;
+}
+
+.herosection-left h2 {
+  font-size: 3rem;
+}
+
+.herosection-left h2 span {
+  color: rgb(54, 121, 255);
+}
+
+.herosection-left-name {
+}
+
+.herosection-left-name h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: -0.2rem;
+  color: rgb(108, 108, 255);
+}
+
+.herosection-left-name span {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.4rem;
+  /* letter-spacing: 1rem; */
+  color: rgb(108, 108, 255);
+}
+
+.herosection-left p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: rgb(105, 105, 105);
+}
+
+.herosection-right {
+  flex: 1;
+  background-color: rgb(190, 225, 255);
+  height: 380px;
+  width: 380px;
+  border-radius: 1rem;
+}
+
+.herosection-right img {
+  flex: 1;
+  border-radius: 1rem;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.herosection-left button {
+  outline: none;
+  border: none;
+  background-color: rgb(67, 67, 181);
+  color: wheat;
+  padding: 0.5rem 2rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.herosection-left button:hover {
+  background-color: rgb(39, 39, 183);
+}
+
+.icons {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.icons:hover {
+  color: blue;
+}
+
+.herosection-icons {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  gap: 1rem;
+}
+
+.herosection-icons span {
+  font-size: 1.3rem;
+  color: rgb(69, 69, 69);
+}

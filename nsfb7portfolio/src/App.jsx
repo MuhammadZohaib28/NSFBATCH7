@@ -5,19 +5,20 @@ import Projects from "./components/projects/Projects";
 import AboutUs from "./components/aboutus/AboutUs";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
-import './App.css'
-
+import "./App.css";
 
 const App = () => {
   return (
-    <div className="app">
+    <>
       <Header />
       <HeroSection />
-      <Projects />
-      <AboutUs />
-      <Contact />
-      <Footer />
-    </div>
+      <div className="app">
+        <Projects />
+        <AboutUs />
+        <Contact />
+        <Footer />
+      </div>
+    </>
   );
 };
 
