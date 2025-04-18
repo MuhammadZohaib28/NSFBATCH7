@@ -4,6 +4,7 @@
   align-items: center;
   width: 100%;
   gap: 3rem;
+  
 }
 
 .card-ui {
@@ -28,4 +29,15 @@
 .card-ui p {
   overflow: hidden;
   text-align: center;
+}
+
+
+.card-ui a button {
+  background-color: rgb(194, 240, 255);
+  outline: none;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 0.2rem;
+  font-weight: 500;
+  cursor: pointer;
 }

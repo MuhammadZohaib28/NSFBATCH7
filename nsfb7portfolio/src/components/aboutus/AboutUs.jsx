@@ -48,14 +48,19 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="aboutus-bottom">
-        <h2>What I Do</h2>
+      <div className="aboutus-bottom-top">
+        <div className="aboutus-bottom">
+          <h2>What I Do</h2>
+          <span>My Services</span>
+        </div>
 
-        <span>My Services</span>
 
-        {cardsData.map((i, index) => {
-          return <Cards title={i.title} desc={i.desc} picture={i.picture} />;
-        })}
+
+        <div className="aboutus-bottom-card">
+          {cardsData.map((i, index) => {
+            return <Cards title={i.title} desc={i.desc} picture={i.picture} />;
+          })}
+        </div>
       </div>
     </section>
   );

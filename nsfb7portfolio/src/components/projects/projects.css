@@ -1,0 +1,44 @@
+.projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 0 5rem;
+  margin-top: 3rem;
+  background-color: aliceblue;
+}
+
+.projects p {
+  text-align: center;
+  font-size: 1.4rem;
+  letter-spacing: -0.4px;
+}
+
+.project-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 2rem;
+  flex-wrap: wrap;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+}
+
+.project-cards > * {
+  flex: 1 1 300px; /* This makes cards flexible with a minimum width of 300px */
+  max-width: 400px; /* Optional: sets a maximum width for each card */
+}
+
+.projects p {
+  width: 70%;
+}
+
+.projects h2 {
+  font-size: 3rem;
+}
+
+.projects h2 span {
+  color: rgb(54, 121, 255);
+}
